@@ -23,6 +23,11 @@ object test001 {
     p.age=18
     println(p.age)
 
+    val x3:String={
+      val d = new java.util.Date()
+      d.toString
+    }
+
     def eualsign(s:String) =
       println("equalSign:"+s)
 
@@ -36,6 +41,11 @@ object test001 {
       ","+s2)
 
 
+
+
+
+
+
     eualsign("hey")
 
     eualsign2("hey")
@@ -44,6 +54,8 @@ object test001 {
 
     println(meth1())
     println(meth2())
+
+
 
 
   }
